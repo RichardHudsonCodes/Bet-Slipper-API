@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bet-Slipper-API/Startup.cs">
+    <Files>
+      <File FileName="Bet-Slipper-API/Startup.cs" Line="58" Column="36" IsPinned="True" />
+      <File FileName="Bet-Slipper-API/RepositoryService/Repository.cs" Line="15" Column="1" />
+      <File FileName="Bet-Slipper-API/RepositoryService/IRepository.cs" Line="15" Column="1" />
+      <File FileName="Bet-Slipper-API/Program.cs" Line="29" Column="19" />
+      <File FileName="Bet-Slipper-API/appsettings.json" Line="13" Column="41" />
+      <File FileName="Bet-Slipper-API/Mongo/MongoSettings.cs" Line="1" Column="1" />
+      <File FileName="Bet-Slipper-API/Mongo/IMongoSettings.cs" />
+      <File FileName="Bet-Slipper-API/Mongo/Document.cs" Line="6" Column="35" />
+      <File FileName="Bet-Slipper-API/Mongo/IDocument.cs" Line="7" Column="22" />
+      <File FileName="Bet-Slipper-API/Mongo/BSONCollectionAttribute.cs" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/5.0.408/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.Shared.targets" Line="213" Column="5" />
+      <File FileName="Bet-Slipper-API/Bets/Bet.cs" Line="14" Column="6" />
+      <File FileName="Bet-Slipper-API/Controllers/BetsController.cs" Line="24" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="Bet-Slipper-API" expanded="True">
+            <Node name=".vs" expanded="True">
+              <Node name="Bet-Slipper-API" expanded="True">
+                <Node name="xs" expanded="True">
+                  <Node name="project-cache" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Bet-Slipper-API" expanded="True">
+              <Node name="Bets" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Bet-Slipper-API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Catchpoint exceptionName="System.Exception" includeSubclasses="True" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

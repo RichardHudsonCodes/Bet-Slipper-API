@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bet-Slipper-API", "Bet-Slipper-API\Bet-Slipper-API.csproj", "{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C528F54-9873-4EEF-90D6-2BBBD8999275}
+	EndGlobalSection
+EndGlobal

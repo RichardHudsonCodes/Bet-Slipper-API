@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Bet_Slipper_API</RootNamespace>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Remove="Bets\" />
+    <None Remove="RepositoryService\" />
+    <None Remove="MongoDB.Driver.Core" />
+    <None Remove="MongoDB.Driver" />
+    <None Remove="Mongo\" />
+    <None Remove="MongoDB.Bson" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Bets\" />
+    <Folder Include="RepositoryService\" />
+    <Folder Include="Mongo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.15.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.15.1" />
+  </ItemGroup>
+</Project>
