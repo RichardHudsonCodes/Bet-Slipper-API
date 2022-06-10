@@ -1,4 +1,4 @@
-import { Form } from "reactstrap"
+import { Button, Form } from "reactstrap"
 import React, { useState } from "react"
 
 export default function CreateRow (){
@@ -33,9 +33,15 @@ export default function CreateRow (){
         setInputFields(data);
     }
 
+    const submit = (e) => 
+    {
+        e.preventDefault();
+        console.log(inputFields);
+    }
+
    return(
     <div>
-    <Form>
+    <Form onSubmit={submit}>
        {inputFields.map((input, index) => 
            { 
                return( 
@@ -60,12 +66,13 @@ export default function CreateRow (){
                     value={input.minOdds}
                     onChange={event => handleFormChange(index, event)}>
                    </input>
-               <button onClick={() => removeRow(index)}>Remove</button>
+               <Button onClick={() => removeRow(index)}>Remove</Button>   
             </div>)
             }
        )}
    </Form>
-    <button onClick={addRow}>Add Row</button>
+    <Button onClick={addRow}>Add Row</Button>
+    <Button onClick={submit}>Submit</Button>
     </div>
    )
 }
