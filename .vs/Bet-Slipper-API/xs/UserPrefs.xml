@@ -1,33 +1,48 @@
-﻿<Properties StartupConfiguration="{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bet-Slipper-API/Controllers/BetsController.cs">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Bet-Slipper-API/Startup.cs" Line="40" Column="32" IsPinned="True" />
-      <File FileName="Bet-Slipper-API/RepositoryService/Repository.cs" />
-      <File FileName="Bet-Slipper-API/RepositoryService/IRepository.cs" />
-      <File FileName="Bet-Slipper-API/Program.cs" />
-      <File FileName="Bet-Slipper-API/appsettings.json" />
-      <File FileName="Bet-Slipper-API/Mongo/MongoSettings.cs" />
-      <File FileName="Bet-Slipper-API/Mongo/IMongoSettings.cs" />
-      <File FileName="Bet-Slipper-API/Mongo/Document.cs" Line="1" Column="1" />
+      <File FileName="Bet-Slipper-API/Startup.cs" Line="51" Column="37" IsPinned="True" />
+      <File FileName="Bet-Slipper-API/Contracts/Bet.cs" Line="17" Column="43" />
+      <File FileName="Bet-Slipper-API/Bets/Bet.cs" Line="11" Column="19" />
+      <File FileName="Bet-Slipper-API/Controllers/BetsController.cs" Line="31" Column="1" />
+      <File FileName="Bet-Slipper-API/RepositoryService/IRepository.cs" Line="12" Column="45" />
+      <File FileName="Bet-Slipper-API/RepositoryService/Repository.cs" Line="50" Column="35" />
+      <File FileName="Bet-Slipper-API/Program.cs" Line="18" Column="44" />
+      <File FileName="Bet-Slipper-API/appsettings.json" Line="16" Column="1" />
+      <File FileName="Bet-Slipper-API/Mongo/MongoSettings.cs" Line="1" Column="1" />
+      <File FileName="Bet-Slipper-API/Mongo/IMongoSettings.cs" Line="1" Column="1" />
       <File FileName="Bet-Slipper-API/Mongo/IDocument.cs" Line="1" Column="1" />
-      <File FileName="Bet-Slipper-API/Mongo/BSONCollectionAttribute.cs" Line="1" Column="1" />
-      <File FileName="../../../../usr/local/share/dotnet/sdk/5.0.408/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.Shared.targets" />
-      <File FileName="Bet-Slipper-API/Bets/Bet.cs" />
-      <File FileName="Bet-Slipper-API/Controllers/BetsController.cs" Line="21" Column="39" />
+      <File FileName="Bet-Slipper-API/Mongo/Document.cs" Line="8" Column="24" />
+      <File FileName="Bet-Slipper-API/Mongo/BsonCollectionAttribute.cs" Line="1" Column="1" />
+      <File FileName="Bet-Slipper-API/Controllers/MultiplesController.cs" Line="14" Column="33" />
+      <File FileName="Bet-Slipper-API/Contracts/MultipleBet.cs" Line="13" Column="37" />
+      <File FileName="Bet-Slipper-FrontEnd/appsettings.json" Line="1" Column="1" />
+      <File FileName="Bet-Slipper-FrontEnd/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Bet-Slipper-API/Contracts/BetDescription.cs" Line="8" Column="1" />
+      <File FileName="Bet-Slipper-API/Contracts/Description.cs" Line="4" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="Bet-Slipper-API" expanded="True">
-            <Node name="Bet-Slipper-API" expanded="True" />
-            <Node name="Bet-Slipper-FrontEnd" expanded="True" />
+            <Node name="Bet-Slipper-API" expanded="True">
+              <Node name="Bets" expanded="True" />
+              <Node name="Contracts" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="BetsController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Bet-Slipper-FrontEnd" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Bet-Slipper-FrontEnd FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Bet-Slipper-Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Bet-Slipper-API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

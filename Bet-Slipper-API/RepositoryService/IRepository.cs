@@ -1,5 +1,6 @@
-﻿using System;
+﻿using System.Threading.Tasks;
 using Bet_Slipper_API.Mongo;
+using MongoDB.Bson;
 
 namespace Bet_Slipper_API.RepositoryService
 {
@@ -8,7 +9,7 @@ namespace Bet_Slipper_API.RepositoryService
         public int Create();
         void InsertOne(TDocument document);
         public void Update(int ID);
-        public void GetByID(object ID);
+        public Task<TDocument> GetByID(ObjectId ID);
         public void Delete(int ID);
     }
 }

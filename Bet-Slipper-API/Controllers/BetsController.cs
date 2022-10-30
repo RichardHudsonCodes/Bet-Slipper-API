@@ -1,44 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Bet_Slipper_API.RepositoryService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MongoDB.Bson;
 
 namespace Bet_Slipper_API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class BetController : ControllerBase
-    { 
-        private readonly ILogger<BetController> _logger;
+    public class BetsController : ControllerBase
+    {
+        private readonly ILogger<BetsController> _logger;
         private IRepository<Bet> _betRepo;
 
-        public BetController(ILogger<BetController> logger, IRepository<Bet> betRepository)
+        public BetsController(ILogger<BetsController> logger, IRepository<Bet> betRepository)
         {
             _logger = logger;
-            _betRepo = betRepository; 
+            _betRepo = betRepository;
         }
 
-        [HttpGet]
-        public IEnumerable<Bet> Get()
+        [HttpPost]
+        public IEnumerable<Bet> SaveBet([FromBody] List<Bet> bets)
         {
-            var rng = new Random();
-            var betArray =  Enumerable.Range(1, 5).Select(index => new Bet
-            {
-                DatePlaced = DateTime.Now.AddDays(index),
-                Price = rng.Next(-20, 55),
-               
-            })
-            .ToArray();
-
-            foreach (var bet in betArray)
+            foreach (var bet in bets)
             {
                 _betRepo.InsertOne(bet);
             }
 
-            return betArray; 
+            return bets;
         }
+
+        [HttpGet]
+        public async Task<IEnumerable<Bet>> GetBets([FromQuery]List<string> betIds)
+        {
+            var bets = new List<Bet>();
+
+            foreach (var id in betIds)
+            {
+                bets.Add(await _betRepo.GetByID(ObjectId.Parse(id)));
+            }
+
+            return bets;
+        }        
     }
 }

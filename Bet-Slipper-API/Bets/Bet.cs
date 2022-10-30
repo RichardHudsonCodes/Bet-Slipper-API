@@ -1,6 +1,6 @@
 ﻿using System;
+using Bet_Slipper_API.Contracts;
 using Bet_Slipper_API.Mongo;
-using MongoDB.Bson.Serialization.Attributes;
 
 namespace Bet_Slipper_API
 {
@@ -8,8 +8,9 @@ namespace Bet_Slipper_API
     public class Bet : Document
     { 
         public DateTime DatePlaced { get; set; }
-        public string Description { get; set; }
+        public BetDescription Description { get; set; }
         public decimal Price { get; set; }
         public decimal ExpectedPrice { get; set; }
+        public bool? Outcome { get; set; }
     }
 }

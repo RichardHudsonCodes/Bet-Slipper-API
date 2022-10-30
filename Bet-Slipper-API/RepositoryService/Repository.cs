@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
+using System.Threading.Tasks;
 using Bet_Slipper_API.Mongo;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace Bet_Slipper_API.RepositoryService
@@ -39,9 +41,10 @@ namespace Bet_Slipper_API.RepositoryService
             throw new NotImplementedException();
         }
 
-        public void GetByID(object ID)
+        public async Task<TDocument> GetByID(ObjectId Id)
         {
-            throw new NotImplementedException();
+            var result = await _collection.FindAsync(x => x.Id == Id); 
+            return result.Single();
         }
 
         public void Update(int ID)

@@ -1,5 +1,6 @@
 import { Button, Form } from "reactstrap"
 import React, { useState } from "react"
+import { Doubles } from "./Doubles";
 
 export default function CreateRow (){
 
@@ -12,6 +13,12 @@ export default function CreateRow (){
            outcome:''
        }
    ])
+
+   const [renderDoubles, setRenderDoubles] = useState(false); 
+
+   const doubles = () =>  {
+       setRenderDoubles(!renderDoubles); 
+   }
 
    const handleFormChange = (index, event) => {
         let data = [...inputFields];
@@ -38,6 +45,11 @@ export default function CreateRow (){
         e.preventDefault();
         console.log(inputFields);
     }
+
+    const DoublesTable = () => { 
+       if (renderDoubles){ return <Doubles data = {inputFields.values} /> }
+        else { return <div></div>}
+     }
 
    return(
     <div>
@@ -73,6 +85,8 @@ export default function CreateRow (){
    </Form>
     <Button onClick={addRow}>Add Row</Button>
     <Button onClick={submit}>Submit</Button>
+    <Button onClick={doubles}>Doubles</Button>
+    <DoublesTable />
     </div>
    )
 }

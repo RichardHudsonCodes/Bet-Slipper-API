@@ -29,6 +29,7 @@
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.csproj.AssemblyReference.cache
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.GeneratedMSBuildEditorConfig.editorconfig
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.AssemblyInfoInputs.cache
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.AssemblyInfo.cs
