@@ -1,3 +1,8 @@
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.AssemblyInfoInputs.cache
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.AssemblyInfo.cs
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.csproj.CoreCompileInputs.cache
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.MvcApplicationPartsAssemblyInfo.cache
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/Bet-Slipper-API.deps.json
@@ -30,11 +35,6 @@
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.csproj.AssemblyReference.cache
-/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.GeneratedMSBuildEditorConfig.editorconfig
-/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.AssemblyInfoInputs.cache
-/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.AssemblyInfo.cs
-/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.csproj.CoreCompileInputs.cache
-/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.MvcApplicationPartsAssemblyInfo.cache
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/staticwebassets/Bet-Slipper-API.StaticWebAssets.Manifest.cache
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/staticwebassets/Bet-Slipper-API.StaticWebAssets.xml
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/scopedcss/bundle/Bet-Slipper-API.styles.css

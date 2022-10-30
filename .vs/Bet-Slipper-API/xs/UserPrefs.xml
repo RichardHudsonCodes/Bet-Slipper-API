@@ -1,8 +1,7 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bet-Slipper-API/Contracts/BetDescription.cs">
     <Files>
       <File FileName="Bet-Slipper-API/Startup.cs" Line="51" Column="37" IsPinned="True" />
-      <File FileName="Bet-Slipper-API/Contracts/Bet.cs" Line="17" Column="43" />
       <File FileName="Bet-Slipper-API/Bets/Bet.cs" Line="11" Column="19" />
       <File FileName="Bet-Slipper-API/Controllers/BetsController.cs" Line="31" Column="1" />
       <File FileName="Bet-Slipper-API/RepositoryService/IRepository.cs" Line="12" Column="45" />
@@ -29,9 +28,7 @@
             <Node name="Bet-Slipper-API" expanded="True">
               <Node name="Bets" expanded="True" />
               <Node name="Contracts" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="BetsController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="Bet-Slipper-FrontEnd" expanded="True">
               <Node name="Dependencies" expanded="True" />

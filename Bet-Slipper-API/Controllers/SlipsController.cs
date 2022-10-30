@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Bet_Slipper_Api.Contracts;
+using Bet_Slipper_API;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
 
@@ -35,28 +36,7 @@ namespace Bet_Slipper_Api.Controllers
              */
             var result = new List<Slip>();
 
-            foreach (var bet in bets)
-            {
-                foreach (var bet2 in bets)
-                {
-                    var addBet =  bet.League != bet2.League;
-                     
-                    if (addBet)
-                    {
-                        var newBet = CreateNewBet(bet, bet2);
-
-                        var isDuplicate = result.Select(x => x.BetDescription).
-                            Contains(
-                            WriteNewBetDescription(bet.BetDescription, bet2.BetDescription)
-                            );
-
-                        if (!isDuplicate)
-                        {
-                            result.Add(newBet);
-                        }
-                    } 
-                }         
-            }
+            
 
             return result; 
         }
@@ -64,9 +44,8 @@ namespace Bet_Slipper_Api.Controllers
         private Slip CreateNewBet(Bet bet1, Bet bet2)
         {
             var newBet = new Slip();
-            newBet.BetDescription = WriteNewBetDescription(bet1.BetDescription, bet2.BetDescription);
-            newBet.ActualOdds = bet1.ActualOdds * bet2.ActualOdds;
-            newBet.MinimumOdds = bet1.MinOdds * bet2.MinOdds;
+            newBet.ActualOdds = bet1.Price * bet2.Price;
+            newBet.MinimumOdds = bet1.ExpectedPrice * bet2.ExpectedPrice;
             newBet.Ids = new List<ObjectId> { bet1.Id, bet2.Id }; 
             return newBet; 
         }
