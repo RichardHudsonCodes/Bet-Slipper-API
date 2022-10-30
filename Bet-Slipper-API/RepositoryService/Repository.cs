@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Bet_Slipper_API.Mongo;
@@ -34,6 +35,11 @@ namespace Bet_Slipper_API.RepositoryService
         public virtual void InsertOne(TDocument document)
         {
             _collection.InsertOne(document);
+        }
+
+        public virtual void InsertMany(List<TDocument> documents)
+        {
+            _collection.InsertMany(documents);
         }
 
         public void Delete(int ID)

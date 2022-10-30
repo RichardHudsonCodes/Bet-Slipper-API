@@ -24,12 +24,9 @@ namespace Bet_Slipper_API.Controllers
         [HttpPost]
         public IEnumerable<Bet> SaveBet([FromBody] List<Bet> bets)
         {
-            foreach (var bet in bets)
-            {
-                _betRepo.InsertOne(bet);
-            }
+           _betRepo.InsertMany(bets);
 
-            return bets;
+           return bets;
         }
 
         [HttpGet]

@@ -43,3 +43,8 @@
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.dll
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.pdb
 /Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.genruntimeconfig.cache
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/Debug/netcoreapp3.1/Bet-Slipper-API.MvcApplicationPartsAssemblyInfo.cs

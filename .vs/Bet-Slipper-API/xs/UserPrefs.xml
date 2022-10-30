@@ -1,11 +1,11 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bet-Slipper-API/Contracts/BetDescription.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bet-Slipper-API/Properties/launchSettings.json">
     <Files>
-      <File FileName="Bet-Slipper-API/Startup.cs" Line="51" Column="37" IsPinned="True" />
+      <File FileName="Bet-Slipper-API/Startup.cs" Line="70" Column="30" IsPinned="True" />
       <File FileName="Bet-Slipper-API/Bets/Bet.cs" Line="11" Column="19" />
-      <File FileName="Bet-Slipper-API/Controllers/BetsController.cs" Line="31" Column="1" />
-      <File FileName="Bet-Slipper-API/RepositoryService/IRepository.cs" Line="12" Column="45" />
-      <File FileName="Bet-Slipper-API/RepositoryService/Repository.cs" Line="50" Column="35" />
+      <File FileName="Bet-Slipper-API/Controllers/BetsController.cs" Line="39" Column="47" />
+      <File FileName="Bet-Slipper-API/RepositoryService/IRepository.cs" Line="18" Column="1" />
+      <File FileName="Bet-Slipper-API/RepositoryService/Repository.cs" Line="40" Column="66" />
       <File FileName="Bet-Slipper-API/Program.cs" Line="18" Column="44" />
       <File FileName="Bet-Slipper-API/appsettings.json" Line="16" Column="1" />
       <File FileName="Bet-Slipper-API/Mongo/MongoSettings.cs" Line="1" Column="1" />
@@ -13,12 +13,11 @@
       <File FileName="Bet-Slipper-API/Mongo/IDocument.cs" Line="1" Column="1" />
       <File FileName="Bet-Slipper-API/Mongo/Document.cs" Line="8" Column="24" />
       <File FileName="Bet-Slipper-API/Mongo/BsonCollectionAttribute.cs" Line="1" Column="1" />
-      <File FileName="Bet-Slipper-API/Controllers/MultiplesController.cs" Line="14" Column="33" />
-      <File FileName="Bet-Slipper-API/Contracts/MultipleBet.cs" Line="13" Column="37" />
-      <File FileName="Bet-Slipper-FrontEnd/appsettings.json" Line="1" Column="1" />
       <File FileName="Bet-Slipper-FrontEnd/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="Bet-Slipper-API/Contracts/BetDescription.cs" Line="8" Column="1" />
       <File FileName="Bet-Slipper-API/Contracts/Description.cs" Line="4" Column="2" />
+      <File FileName="Bet-Slipper-API/Controllers/SlipsController.cs" Line="1" Column="1" />
+      <File FileName="Bet-Slipper-API/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Bet-Slipper-API/Properties/launchSettings.json" Line="23" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,9 +25,10 @@
           <Option id="ShowAllFiles" value="True" />
           <Node name="Bet-Slipper-API" expanded="True">
             <Node name="Bet-Slipper-API" expanded="True">
-              <Node name="Bets" expanded="True" />
-              <Node name="Contracts" expanded="True" />
               <Node name="Controllers" expanded="True" />
+              <Node name="RepositoryService" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
             <Node name="Bet-Slipper-FrontEnd" expanded="True">
               <Node name="Dependencies" expanded="True" />
@@ -46,6 +46,9 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Catchpoint exceptionName="System.Exception" includeSubclasses="True" />
+      <Breakpoint file="/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Controllers/SlipsController.cs" relfile="Bet-Slipper-API/Controllers/SlipsController.cs" line="42" column="1" />
+      <Breakpoint file="/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Controllers/SlipsController.cs" relfile="Bet-Slipper-API/Controllers/SlipsController.cs" line="35" column="1" />
+      <Breakpoint file="/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Controllers/SlipsController.cs" relfile="Bet-Slipper-API/Controllers/SlipsController.cs" line="25" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

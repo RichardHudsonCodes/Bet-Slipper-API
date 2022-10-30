@@ -14,15 +14,19 @@
     <None Remove="Mongo\" />
     <None Remove="MongoDB.Bson" />
     <None Remove="Contracts\" />
+    <None Remove="Commands\" />
+    <None Remove="Swashbuckle.AspNetCore" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Bets\" />
     <Folder Include="RepositoryService\" />
     <Folder Include="Mongo\" />
     <Folder Include="Contracts\" />
+    <Folder Include="Commands\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MongoDB.Bson" Version="2.15.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.15.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 </Project>

@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using MongoDB.Bson;
+using Bet_Slipper_API;
 
 namespace Bet_Slipper_Api.Contracts
 {
@@ -9,9 +9,7 @@ namespace Bet_Slipper_Api.Contracts
         {
         }
 
-        public List<ObjectId> Ids { get; set; }
-        public string BetDescription {get;set;}
-        public decimal ActualOdds { get; set; }
-        public decimal MinimumOdds { get; set; }
+        public List<Bet> Bets { get; set; }
+        public int Multiple { get; set; }
     }
 }
