@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API-Tests/Bet-Slipper-API-Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API-Tests/Bet-Slipper-API-Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API-Tests/Bet-Slipper-API-Tests.csproj",
+        "projectName": "Bet-Slipper-API-Tests",
+        "projectPath": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API-Tests/Bet-Slipper-API-Tests.csproj",
+        "packagesPath": "/Users/richardhudson/.nuget/packages/",
+        "outputPath": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API-Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/richardhudson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Bet-Slipper-API.csproj": {
+                "projectPath": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Bet-Slipper-API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Bet-Slipper-API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Bet-Slipper-API.csproj",
+        "projectName": "Bet-Slipper-API",
+        "projectPath": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Bet-Slipper-API.csproj",
+        "packagesPath": "/Users/richardhudson/.nuget/packages/",
+        "outputPath": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/richardhudson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.15.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.31, 3.1.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
