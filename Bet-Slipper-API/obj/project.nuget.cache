@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Nw8YVD0ymNxuOtMu550+Ms+hd1x7pISutPFIDADurAtP3k/0nei3db4ZoniTwA+m9cuXbNsE9dRMHuB5/KjAXw==",
+  "dgSpecHash": "sldm/8bcGnRQ156ZaiR+d4X/mP4T3Tucr0wD65cxHAfxTuAErBU/i0hX2pty5Ideohb8pBYYt7us2BD5GzPTcQ==",
   "success": true,
   "projectFilePath": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Bet-Slipper-API.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,8 @@
     "/Users/richardhudson/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/richardhudson/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "/Users/richardhudson/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "/Users/richardhudson/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512"
+    "/Users/richardhudson/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
+    "/Users/richardhudson/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.31/microsoft.netcore.app.host.osx-x64.3.1.31.nupkg.sha512"
   ],
   "logs": []
 }

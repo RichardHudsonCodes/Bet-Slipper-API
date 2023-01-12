@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q8qvKA8loIiY67HobPWU5pd6tdUuOVf2Q1v/DeQE6WhMZ/xPni8jSv+oJKPnNN+eQplD2NQV541ZzKb1hCfkew==",
+  "dgSpecHash": "cTJNgH1EAdThm5zNCx/2Q90TBdYWbY78TD3rTGBR5T2mUONdyyDraUq/6/QGdJOFHErudthrXb84bOiaqFIFSw==",
   "success": true,
   "projectFilePath": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-FrontEnd/Bet-Slipper-FrontEnd.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,8 @@
     "/Users/richardhudson/.nuget/packages/microsoft.extensions.options/3.1.25/microsoft.extensions.options.3.1.25.nupkg.sha512",
     "/Users/richardhudson/.nuget/packages/microsoft.extensions.options.configurationextensions/3.1.25/microsoft.extensions.options.configurationextensions.3.1.25.nupkg.sha512",
     "/Users/richardhudson/.nuget/packages/microsoft.extensions.primitives/3.1.25/microsoft.extensions.primitives.3.1.25.nupkg.sha512",
-    "/Users/richardhudson/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512"
+    "/Users/richardhudson/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/richardhudson/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.31/microsoft.netcore.app.host.osx-x64.3.1.31.nupkg.sha512"
   ],
   "logs": []
 }

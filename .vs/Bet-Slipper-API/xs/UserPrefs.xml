@@ -1,23 +1,22 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{4ECF4CDE-AC2F-49DA-80DA-BC6A46A84959}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bet-Slipper-API/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bet-Slipper-API/Startup.cs">
     <Files>
       <File FileName="Bet-Slipper-API/Startup.cs" Line="70" Column="30" IsPinned="True" />
-      <File FileName="Bet-Slipper-API/Bets/Bet.cs" Line="11" Column="19" />
-      <File FileName="Bet-Slipper-API/Controllers/BetsController.cs" Line="39" Column="47" />
-      <File FileName="Bet-Slipper-API/RepositoryService/IRepository.cs" Line="18" Column="1" />
-      <File FileName="Bet-Slipper-API/RepositoryService/Repository.cs" Line="40" Column="66" />
-      <File FileName="Bet-Slipper-API/Program.cs" Line="18" Column="44" />
-      <File FileName="Bet-Slipper-API/appsettings.json" Line="16" Column="1" />
-      <File FileName="Bet-Slipper-API/Mongo/MongoSettings.cs" Line="1" Column="1" />
-      <File FileName="Bet-Slipper-API/Mongo/IMongoSettings.cs" Line="1" Column="1" />
-      <File FileName="Bet-Slipper-API/Mongo/IDocument.cs" Line="1" Column="1" />
-      <File FileName="Bet-Slipper-API/Mongo/Document.cs" Line="8" Column="24" />
-      <File FileName="Bet-Slipper-API/Mongo/BsonCollectionAttribute.cs" Line="1" Column="1" />
-      <File FileName="Bet-Slipper-FrontEnd/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="Bet-Slipper-API/Contracts/Description.cs" Line="4" Column="2" />
-      <File FileName="Bet-Slipper-API/Controllers/SlipsController.cs" Line="1" Column="1" />
-      <File FileName="Bet-Slipper-API/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="Bet-Slipper-API/Properties/launchSettings.json" Line="23" Column="21" />
+      <File FileName="Bet-Slipper-API/Bets/Bet.cs" />
+      <File FileName="Bet-Slipper-API/Controllers/BetsController.cs" />
+      <File FileName="Bet-Slipper-API/RepositoryService/IRepository.cs" />
+      <File FileName="Bet-Slipper-API/RepositoryService/Repository.cs" />
+      <File FileName="Bet-Slipper-API/Program.cs" />
+      <File FileName="Bet-Slipper-API/appsettings.json" />
+      <File FileName="Bet-Slipper-API/Mongo/MongoSettings.cs" />
+      <File FileName="Bet-Slipper-API/Mongo/IMongoSettings.cs" />
+      <File FileName="Bet-Slipper-API/Mongo/IDocument.cs" />
+      <File FileName="Bet-Slipper-API/Mongo/Document.cs" />
+      <File FileName="Bet-Slipper-API/Mongo/BsonCollectionAttribute.cs" />
+      <File FileName="Bet-Slipper-FrontEnd/appsettings.Development.json" />
+      <File FileName="Bet-Slipper-API/Controllers/SlipsController.cs" />
+      <File FileName="Bet-Slipper-API/appsettings.Development.json" />
+      <File FileName="Bet-Slipper-API/Properties/launchSettings.json" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
