@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-FrontEnd\\Bet-Slipper-FrontEnd.csproj": {}
+    "C:\\Users\\rj_hu\\Source\\Repos\\Bet-Slipper-API\\Bet-Slipper-FrontEnd\\Bet-Slipper-FrontEnd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-FrontEnd\\Bet-Slipper-FrontEnd.csproj": {
+    "C:\\Users\\rj_hu\\Source\\Repos\\Bet-Slipper-API\\Bet-Slipper-FrontEnd\\Bet-Slipper-FrontEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-FrontEnd\\Bet-Slipper-FrontEnd.csproj",
+        "projectUniqueName": "C:\\Users\\rj_hu\\Source\\Repos\\Bet-Slipper-API\\Bet-Slipper-FrontEnd\\Bet-Slipper-FrontEnd.csproj",
         "projectName": "Bet-Slipper-FrontEnd",
-        "projectPath": "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-FrontEnd\\Bet-Slipper-FrontEnd.csproj",
+        "projectPath": "C:\\Users\\rj_hu\\Source\\Repos\\Bet-Slipper-API\\Bet-Slipper-FrontEnd\\Bet-Slipper-FrontEnd.csproj",
         "packagesPath": "C:\\Users\\rj_hu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-FrontEnd\\obj\\",
+        "outputPath": "C:\\Users\\rj_hu\\Source\\Repos\\Bet-Slipper-API\\Bet-Slipper-FrontEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rj_hu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

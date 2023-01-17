@@ -1079,11 +1079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-API\\Bet-Slipper-API.csproj",
+      "projectUniqueName": "C:\\Users\\rj_hu\\Source\\Repos\\Bet-Slipper-API\\Bet-Slipper-API\\Bet-Slipper-API.csproj",
       "projectName": "Bet-Slipper-API",
-      "projectPath": "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-API\\Bet-Slipper-API.csproj",
+      "projectPath": "C:\\Users\\rj_hu\\Source\\Repos\\Bet-Slipper-API\\Bet-Slipper-API\\Bet-Slipper-API.csproj",
       "packagesPath": "C:\\Users\\rj_hu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-API\\obj\\",
+      "outputPath": "C:\\Users\\rj_hu\\Source\\Repos\\Bet-Slipper-API\\Bet-Slipper-API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rj_hu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1144,7 +1144,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

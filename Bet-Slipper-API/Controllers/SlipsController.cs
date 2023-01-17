@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using Bet_Slipper_Api.Contracts;
-using Bet_Slipper_API;
 using Bet_Slipper_API.Bets;
 using Bet_Slipper_API.Commands;
 using Microsoft.AspNetCore.Mvc;

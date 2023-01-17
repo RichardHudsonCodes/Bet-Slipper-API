@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hlsZ2E/bq4gLHXiKR2QAefe+4oDS0vfshlBZBplHnSHTbISUj8qt7E06SwXLXjyCrtJzWUhO/8D6RhC4fzRApQ==",
+  "dgSpecHash": "JjS5HtC/STHPll2sm9VwueVF6/+EVtKXr08MVX7Kvrtp7w0vgvUnnydQPeT+JPwLrTKmgVzmoZpS7vMqYKtNdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-API\\Bet-Slipper-API.csproj",
+  "projectFilePath": "C:\\Users\\rj_hu\\Source\\Repos\\Bet-Slipper-API\\Bet-Slipper-API\\Bet-Slipper-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rj_hu\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
     "C:\\Users\\rj_hu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
