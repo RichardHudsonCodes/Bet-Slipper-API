@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Bet_Slipper_Api.Contracts;
 using Bet_Slipper_API;
+using Bet_Slipper_API.Bets;
+using Bet_Slipper_API.Commands;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -20,9 +22,10 @@ namespace Bet_Slipper_Api.Controllers
 
 
         [HttpPost]
-        public List<Bet[]> Multiples([FromBody]Slip slip)
+        public IEnumerable<CombinationBet> Multiples([FromServices]IGenerateMultiplesCommand generateMultiplesCommand,
+        [FromBody]Slip slip)
         {
-            var multiples = GetCombinations(slip.Bets, slip.Multiple);
+            var multiples = generateMultiplesCommand.Execute(slip.Bets, 2);
             return multiples;
         }
 

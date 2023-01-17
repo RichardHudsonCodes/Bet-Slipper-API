@@ -1,4 +1,5 @@
 ﻿using System;
+using Bet_Slipper_API.Commands;
 using Bet_Slipper_API.Mongo;
 using Bet_Slipper_API.RepositoryService;
 using Microsoft.AspNetCore.Builder;
@@ -46,7 +47,7 @@ namespace Bet_Slipper_API
                });
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-
+            services.AddScoped<IGenerateMultiplesCommand, GenerateMultiplesCommand>(); 
 
             services.AddControllers();
         }

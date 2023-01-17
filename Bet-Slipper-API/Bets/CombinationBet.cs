@@ -1,18 +1,17 @@
-﻿using System;
-using Bet_Slipper_API.Contracts;
-
+﻿
 namespace Bet_Slipper_API.Bets
 {
 	public class CombinationBet
 	{
-		public CombinationBet()
+		public CombinationBet(Bet[] bet, decimal stake)
 		{
-			
+			Bet = bet;
+			Stake = stake;
 		}
 
         public Bet[] Bet { get; set; }
-		public decimal ExpectedPrice { get; set; }
-		public decimal Price { get; set; }
+		public decimal Stake { get; set; } 
+	
     }
 }
 

@@ -7527,32 +7527,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/richardhudson/.nuget/packages/": {}
+    "C:\\Users\\rj_hu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API-Tests/Bet-Slipper-API-Tests.csproj",
+      "projectUniqueName": "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-API-Tests\\Bet-Slipper-API-Tests.csproj",
       "projectName": "Bet-Slipper-API-Tests",
-      "projectPath": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API-Tests/Bet-Slipper-API-Tests.csproj",
-      "packagesPath": "/Users/richardhudson/.nuget/packages/",
-      "outputPath": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API-Tests/obj/",
+      "projectPath": "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-API-Tests\\Bet-Slipper-API-Tests.csproj",
+      "packagesPath": "C:\\Users\\rj_hu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rj_hu\\Source\\Repos\\Bet-Slipper-API\\Bet-Slipper-API-Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/richardhudson/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\rj_hu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Bet-Slipper-API.csproj": {
-              "projectPath": "/Users/richardhudson/Projects/Bet-Slipper-API/Bet-Slipper-API/Bet-Slipper-API.csproj"
+            "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-API\\Bet-Slipper-API.csproj": {
+              "projectPath": "C:\\Users\\rj_hu\\source\\repos\\Bet-Slipper-API\\Bet-Slipper-API\\Bet-Slipper-API.csproj"
             }
           }
         }
@@ -7612,7 +7614,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
